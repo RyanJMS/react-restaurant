@@ -2,6 +2,6 @@
 
 A basic restaurant site built with React
 
-![Demo](https://imgur.com/wJMAXMf)
+![Demo](/relative/path/to/demo.png?raw=true)
 
 Check it out at https://ryanjms.github.io/react-restaurant/
