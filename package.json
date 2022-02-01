@@ -1,7 +1,7 @@
 {
   "name": "react-restaurant",
   "version": "0.1.0",
-  "homepage": "https://ryanjms.github.io/react-restaurant/",
+  "homepage": "https://ryanjms.github.io/react-restaurant",
   "private": true,
   "dependencies": {
     "@emotion/core": "^11.0.0",
