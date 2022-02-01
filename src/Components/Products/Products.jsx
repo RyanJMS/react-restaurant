@@ -5,7 +5,7 @@ import pimage2 from "../../assets/s2.png";
 
 const Products = () => {
   return (
-    <div id="products">
+    <div id="menu">
       <h1>CHOOSE & ENJOY</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat illum

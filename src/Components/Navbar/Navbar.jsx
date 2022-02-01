@@ -15,25 +15,33 @@ const Navbar = () => {
   window.addEventListener("scroll", changeBackground);
   return (
     <nav className={nav ? "nav active" : "nav"}>
-      <Link to="#" className="logo">
+      <Link to="main" className="logo" smooth={true} duration={2000}>
         <img src={logo} alt="Logo" />
       </Link>
       <input type="checkbox" className="menu-btn" id="menu-btn" />
-      <label htmlFor="menu-btn" for="menu-btn" className="menu-icon">
+      <label htmlFor="menu-btn" className="menu-icon">
         <span className="nav-icon"></span>
       </label>
       <ul className="menu">
         <li>
-          <Link to="#">Header</Link>
+          <Link to="main" smooth={true} duration={2000}>
+            Header
+          </Link>
         </li>
         <li>
-          <Link to="#">Menu</Link>
+          <Link to="menu" smooth={true} duration={2000}>
+            Menu
+          </Link>
         </li>
         <li>
-          <Link to="#">About</Link>
+          <Link to="about-h1" smooth={true} duration={2000}>
+            About
+          </Link>
         </li>
         <li>
-          <Link to="#">Contact</Link>
+          <Link to="contact" smooth={true} duration={2000}>
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>

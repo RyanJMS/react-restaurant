@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Header from "./Components/Header/Header";
 import Products from "./Components/Products/Products";
 import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
 import { css } from "@emotion/react";
 import PropagateLoader from "react-spinners/PropagateLoader";
 
@@ -37,6 +38,7 @@ function App() {
           <Header />
           <Products />
           <About />
+          <Contact />
         </>
       )}
     </div>
